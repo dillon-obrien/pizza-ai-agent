@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "setup-azure": "node src/scripts/setup-azure-search.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "@azure/identity": "^4.10.0",

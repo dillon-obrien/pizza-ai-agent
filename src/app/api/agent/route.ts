@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { AgentOrchestrator } from "@/lib/agent-service";
+import { SemanticKernelAgentOrchestrator } from "@/lib/semantic-kernel-agent-service";
 
-// Initialize the agent orchestrator
-const agentOrchestrator = new AgentOrchestrator();
+// Initialize the semantic kernel agent orchestrator
+const agentOrchestrator = new SemanticKernelAgentOrchestrator();
 
 /**
  * Process a message with the agent
